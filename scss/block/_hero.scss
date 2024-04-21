@@ -67,11 +67,12 @@
     .hero{
         padding: 109px 100px 67px 100px;
     }
-    .hero__box{
+    .hero__block{
         display: flex;
         gap: 70px;
         align-items: center;
         max-width: 1239px;
+        margin-bottom: 67px;
     }
     .hero__content_block{
         max-width: 560px;
