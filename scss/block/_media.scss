@@ -1,0 +1,34 @@
+.media{
+    padding: 0 21px 26px 27px;
+}
+.media__tb{
+    display: none;
+}
+.media__dk{
+    display: none;
+}
+@media screen and (min-width: 768px){
+    .media{
+        padding: 0 59px 106px 34px;
+    }
+    .media__mb{
+        display: none;
+    }
+    .media__tb{
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 992px){
+    .media{
+        padding: 46px 100px 166px 95px;
+    }
+    .media__mb{
+        display: none;
+    }
+    .media__tb{
+        display: none;
+    }
+    .media__dk{
+        display: inline-block;
+    }
+}

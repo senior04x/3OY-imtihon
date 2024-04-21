@@ -1,0 +1,102 @@
+.hero{
+    padding: 75px 15px 56px 15px;
+}
+.hero__title{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 125%;
+    color: #363738;
+    margin-bottom: 32px;
+}
+.hero__text{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #363738;
+    margin-bottom: 32px;
+}
+.hero__link{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    color: #000;
+    border-bottom: 3px solid #ffce50;
+    padding-bottom: 11px;
+}
+.hero__img_block{
+    margin-top: 40px;
+    width: 345px;
+    height: 253px;
+    background-repeat: no-repeat;
+    background-image: url('../img/hero-mobile.png');
+}
+.service__line{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .hero{
+        padding: 117px 39px 41px 39px;
+    }
+    .hero__content_block{
+        text-align: center;
+    }
+    .hero__title{
+        font-size: 44px;
+    }
+    .hero__text{
+        font-size: 16px;
+    }
+    .hero__link{
+        font-size: 16px;
+    }
+    .hero__img_block{
+        margin-top: 73px;
+        width: 690px;
+        height: 314px;
+        background-repeat: no-repeat;
+        background-image: url('../img/hero-tablet.png');
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width: 992px) {
+    .hero{
+        padding: 109px 100px 67px 100px;
+    }
+    .hero__box{
+        display: flex;
+        gap: 70px;
+        align-items: center;
+        max-width: 1239px;
+    }
+    .hero__content_block{
+        max-width: 560px;
+        text-align: start;
+    }
+    .hero__title{
+        font-size: 52px;
+    }
+    .hero__text{
+        font-size: 16px;
+        max-width: 525px;
+    }
+    .hero__link{
+        font-size: 16px;
+    }
+    .hero__img_block{
+        margin: 0;
+        width: 635px;
+        height: 505px;
+        background-repeat: no-repeat;
+        background-image: url('../../img/hero-desktop.png');
+        border-radius: 25px;
+    }
+    .service__line{
+        display: block;
+        border: 1px solid #d7d7dd;
+    }
+}

@@ -1,0 +1,187 @@
+.main__footer{
+    padding: 14px 40px 29px 41px;
+    background-color: #0b7572;
+}
+.footer__logo{
+    font-family: var(--third-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.16em;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 23px;
+}
+.footer__list_block{
+    display: flex;
+    gap: 53px;
+    margin-bottom: 17px;
+}
+.footer__item:not(:last-child){
+    margin-bottom: 26px;
+}
+.footer__sub_link{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 150%;
+    letter-spacing: 0.16em;
+    text-transform: capitalize;
+    color: #fff;
+}
+.footer__link_item_1{
+    margin-bottom: 64px;
+    display: flex;
+    gap: 5px;
+}
+.footer__icon_block{
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../../img/icon-mb.svg');
+}
+.footer__icon_block_1{
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../../img/icon2-mb.svg');
+}
+.footer__link_tel{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 23px;
+}
+.footer__link_btn{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px 14px 8px 60px;
+    background: #ff9619;
+    border: none;
+    display: flex;
+    gap: 37px;
+    align-items: center;
+    &::after{
+        content: "";
+        width: 17px;
+        height: 8px;
+        background-repeat: no-repeat;
+        background-image: url('../../img/arrow.svg');
+        display: block;
+    }
+}
+.footer__text{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+    letter-spacing: 0.16em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    margin-top: 16px;
+    max-width: 161px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width:768px) {
+    .main__footer{
+        padding: 30px 127px 22px 37px;
+    }
+    .footer__box{
+        display: flex;
+    }
+    .footer__item:not(:last-child){
+        margin-bottom: 1px;
+    }
+    .footer__logo{
+        font-size: 30px;
+        margin: 0;
+        margin-right: 73px;
+    }
+    .footer__list_block{
+        margin: 0;
+        margin-right: 35px;
+    }
+    .footer__link_item_1{
+        margin-bottom: 22px;
+    }
+    .footer__link_tel{
+        margin-bottom: 11px;
+    }
+    .footer__link_btn{
+        padding: 4px 11px 4px 4px;
+        font-size: 6px;
+    }
+    .footer__text{
+        max-width: 340px;
+        margin-top: 35px;
+    }
+    .footer__icon_block{
+        width: 16px;
+        height: 15px;
+        background-image: url('../../img/icon-tb.svg');
+    }
+    .footer__icon_block_1{
+        width: 16px;
+        height: 15px;
+        background-image: url('../../img/icon-tb2.svg');
+    }
+    .footer__link_list{
+        margin-top: 8px;
+    }
+}
+@media screen and (min-width:992px) {
+    .main__footer{
+        padding: 60px 234px 29px 95px;
+    }
+    .footer__logo{
+        font-size: 60px;
+        margin-right: 134px;
+    }
+    .footer__list_block{
+        margin-right: 180px;
+        margin-top: 10px;
+    }
+    .footer__item:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .footer__sub_link{
+        font-size: 13px;
+    }
+    .footer__link_item_1{
+        margin-bottom: 33px;
+        gap: 15px;
+    }
+    .footer__icon_block{
+        width: 28px;
+        height: 28px;
+        background-image: url('../../img/icon-dk.svg');
+    }
+    .footer__icon_block_1{
+        width: 28px;
+        height: 28px;
+        background-image: url('../../img/icon-dk2.svg');
+    }
+    .footer__link_tel{
+       font-size: 13px;
+       margin-bottom: 32px;
+    }
+    .footer__link_btn{
+        padding: 8px 11px 8px 14px;
+        font-size: 13px;
+    }
+    .footer__text{
+        font-size: 12px;
+        margin-top: 80px;
+        max-width: 380px;
+    }
+}
