@@ -303,10 +303,6 @@ h1, h2, h3, h4, p {
   background-image: url("../img/hero-mobile.png");
 }
 
-.service__line {
-  display: none;
-}
-
 @media screen and (min-width: 768px) {
   .hero {
     padding: 117px 39px 41px 39px;
@@ -503,9 +499,9 @@ h1, h2, h3, h4, p {
     margin: 0;
   }
   .service__list {
-    gap: 24px;
+    gap: 12px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-auto-rows: 245px;
   }
   .service__item_1 {
